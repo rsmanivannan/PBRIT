@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1577349341827" createdUser="root" id="4a1dbb7c:16f413c344a:-7e2f" selfDescribing="userver.ibm.demo (127.0.1.1)" type="host_machine_resource" updatedTimestamp="1577349341827" updatedUser="root" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig host_address="127.0.1.1" user_host_name="userver.ibm.demo">
+      <roles>
+         <identity name="ssh" port="22"/>
+      </roles>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1577391915770" createdUser="root" id="4a1dbb7c:16f413c344a:-7c02" selfDescribing="phonebook-openapi3.0" syncSourceDetails="4a1dbb7c:16f413c344a:-7f6a" type="openapi_definition" updatedTimestamp="1577391915793" updatedUser="root" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig locationtype="102">
+      <locationURI>https://userver:5443/RTCP/examples/phonebook/api/phonebook-openapi3.0.json</locationURI>
+   </resourceConfig>
+</editableResource>

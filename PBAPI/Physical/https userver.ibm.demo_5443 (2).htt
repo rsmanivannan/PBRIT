@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1577391916539" createdUser="root" id="4a1dbb7c:16f413c344a:-7c02:1660688481:1544155186" selfDescribing="https userver.ibm.demo:5443" type="http_transport" updatedTimestamp="1577391916539" updatedUser="root" version="1.0">
+   <syncdetails compare="-1702156077" lastSynced="1577391916539" sourceid="4a1dbb7c:16f413c344a:-7c02">
+      <sourcepath path="servers"/>
+      <sourcepath path="url"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!ce41" credPreemptive="false" credType="0" credUser="" httpHost="userver.ibm.demo" httpNtlmDomain="" httpPort="5443" httpProxyHost="" httpProxyPassword="#com.ghc.1!6f6a" httpProxyPort="" httpProxyUsername="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" useSsl="true" version="4">
+         <kerberos Anon="false" CStyle="Username / Password" Conf="false" Custom="true" Enabled="false" Integ="false" MutAuth="false" RepDet="false" SSO="false" SeqCheck="false"/>
+         <oauth clientassertion="" clientid="" clientsecret="" enabled="false" refreshtoken="" scopes="" tokenendpoint=""/>
+      </messageProperties>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1577349341230" createdUser="root" id="4a1dbb7c:16f413c344a:-7e84:1961646137:1544155186" selfDescribing="https userver.ibm.demo:5443" type="http_transport" updatedTimestamp="1577349341230" updatedUser="root" version="1.0">
+   <syncdetails compare="" lastSynced="1577349341230" sourceid="4a1dbb7c:16f413c344a:-7e84"/>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!ac65" credPreemptive="false" credType="0" credUser="" httpHost="userver.ibm.demo" httpNtlmDomain="" httpPort="5443" httpProxyHost="" httpProxyPassword="#com.ghc.1!c726" httpProxyPort="" httpProxyUsername="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" useSsl="true" version="4">
+         <kerberos Anon="false" CStyle="Username / Password" Conf="false" Custom="true" Enabled="false" Integ="false" MutAuth="false" RepDet="false" SSO="false" SeqCheck="false"/>
+         <oauth clientassertion="" clientid="" clientsecret="" enabled="false" refreshtoken="" scopes="" tokenendpoint=""/>
+      </messageProperties>
+   </resourceConfig>
+</editableResource>
