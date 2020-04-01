@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><_c buildID="I20191203_1447" certificateAuthority="KEY_1024_BITS" comments="Project created on February 19, 2020" creationVersion="10.0.2" domain="phonebook" extDocPrefix="" name="PBAPI" owner="root" rulesCacheUri="%%PROJECT/ROOT%%Rules" uuid="00000170-5fcc-4a4f-0000-1597dca840e2">
    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
-   <serverSettings ghRepositoryURL="https://localhost:5443/RTCP/" trustSource="INBUILT_CA" trustStorePath="">
-      <dbConnectionParameters maxConnections="5" poolName="DefaultPoolName">
-         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="" password="#com.ghc.1!ccae" recordFilters="" schema="" url="" useSsl="false" user="">
-            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!4fea" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
-            <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+   <serverSettings ghRepositoryURL="https://userver:5443/RTCP/" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!af78" trustStorePath="">
+      <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
+         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!832b12994ACF4437E346A2EE727C1178552D" recordFilters="" url="jdbc:db2://userver:50000/ritres" user="db2admin">
+            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!6b29" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
+            <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="db2admin" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
             <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
          </connectionParams>
       </dbConnectionParameters>
-      <automationServer enabled="false" hostname="" port="443" projectId="-1" projectName="--No Project Selected--" publishResults="false" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!b222" trustStorePath=""/>
+      <automationServer enabled="false" hostname="https://192.168.17.32.nip.io" port="443" projectId="-1" projectName="--No Project Selected--" publishResults="false" trustSource="INBUILT_CA" trustStorePassword="#com.ghc.1!4489" trustStorePath=""/>
    </serverSettings>
    <permissionsSettings autoLogin="true" host="" permFactId="ldap.permissions.factory.none" port="389" pswd="eiNA2q5JN4NN46mHLhow/HHaW2KZT6wqYwLfcElbZvI=$YbCzfS0f1d4JM9Y9OcOeXcVlKYILj5P0tGBh6SGTNCI="/>
    <resultPublishers disableAll="false"/>
